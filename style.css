@@ -1,0 +1,134 @@
+body{
+	margin: 0 auto;
+	background-image: url("cube.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+.index-blocks{
+	width: 600px;
+	height: 700px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 160px;
+}
+.index-blocks div{
+    margin-top: 30px;
+}
+
+.index-blocks section p a{
+    text-decoration: none;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+.container section{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.container img{
+	width: 250px;
+	height: 250px;
+	margin-top: -80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid crimson;
+    background: none;
+}
+
+.container button{
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.container button:hover{
+    color: white;
+    background: black;
+    border: 1px solid white;
+
+}
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+}
+
+
+/* Register.html*/
+
+.register-block{
+	width: 600px;
+	height: 800px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 100px;
+}
+.register-block div{
+    margin-top: 10px;
+}
+
+.register-block section p a{
+    text-decoration: none;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.register-block h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    padding: 20px 0 0 20px;
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    margin: 0 auto;
+}
+input[type=date] { 
+	border: none;
+	font-size: 18px;
+	width: 290px;
+    height: 20px;
+	color: black;
+	padding: 1rem;
+	font-size: 1.4rem;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+/* home.php */
+
+.con-text{
+    margin-top: 160px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: crimson;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Form in HTML5 and CSS3</title>
+	<link rel="stylesheet" a href="style.css">
+	
+</head>
+<body>
+	<div class="container register-block">
+		<h2>Registeration Form</h2>
+		<form action="registeration.php" method="POST">
+			<div>
+				<input type="text" name="email" placeholder="Enter Email id"/>	
+			</div>
+			<div>
+				<input type="date" name="dateofbirth"/>
+			</div>
+			<div>
+				<input type="text" name="username" placeholder="Enter the Username"/>	
+			</div>
+			<div>
+				<input type="password" name="password" placeholder="Enter your Password"/>
+			</div>
+			
+            <section>
+                <p>Already have a Account?<a href="index.php">Sign In</a></p>
+            </section>
+			<!--<input type="submit" type="submit" value="LOGIN" class="btn-login"/>-->
+            <button type="submit" style="text-transform: uppercase;" name="submit_login">Register</button>
+		</form>
+	</div>
+</body>
+</html>
